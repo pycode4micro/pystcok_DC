@@ -2,7 +2,7 @@ import asyncio
 import aiohttp
 import logging
 from datetime import datetime
-from stock_simple import process_and_upload_stock_page
+from .stock_simple import process_and_upload_stock_page
 import time
 import random
 import os
